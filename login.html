@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Log In</title>
+	<style>
+		body {
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		}
+
+		form {
+			align-items: center;
+			text-align: center;
+		}
+
+		input[type="text"] {
+			width: 328px;
+			height: 71px;
+			background: #E3E3E3;
+			border-radius: 10px;
+			border: none;
+			text-align: center;
+			margin: 10px;
+		}
+		input[type="password"] {
+			width: 328px;
+			height: 71px;
+			background: #E3E3E3;
+			border-radius: 10px;
+			border: none;
+			text-align: center;
+			margin: 10px;
+		}
+
+		input[type="submit"] {
+			width: 328px;
+			height: 44px;
+			font-size: 30px;
+			font-weight: bold;
+			border: none;
+			background-color: white;
+			text-decoration: rgb(0, 138, 252) underline;
+		}
+		input[type="submit"]:hover {
+			color: rgb(0, 138, 252);
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="login.php" method="POST">
+		<h1>Log In</h1>
+		<input type="text" name="username"><br>
+		<input type="password" name="password"><br>
+		<input type="submit">
+	</form>
+</body>
+
+</html>
